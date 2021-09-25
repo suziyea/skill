@@ -1,0 +1,6 @@
+<!--pages/input/input.wxml-->
+<text>pages/input/input.wxml</text>
+<!-- <input placeholder="微信小程序啊" value="我是默认的哈" type="idcard"  placeholder-style="color:hotpink;"></input> -->
+<input placeholder="微信小程序啊"  type="idcard" bindinput="hak"  placeholder-style="color:hotpink;"></input>
+<!-- anniu -->
+<button plain type="primary">我是按钮</button>
