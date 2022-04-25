@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+
+    // 不启用 use strict
+    // function demo() {
+    //     // this 指向window
+    //     console.log(this)
+    // }
+
+    // 启用 use strict
+    function demo() {
+        "use strict"
+        // 启用了严格模式，禁止自定义函数中的 this 指向window
+        console.log(this)
+    }
+    demo();
+
+</script>
